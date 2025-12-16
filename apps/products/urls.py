@@ -1,4 +1,4 @@
-from rest_framework.routers import DefaultRouter
+from rest_framework.routers import DefaultRouter # type: ignore
 from .views.product import ProductViewSet
 from .views.category import CategoryViewSet
 from .views.variant import VariantViewSet
